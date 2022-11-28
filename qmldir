@@ -1,0 +1,3 @@
+module mdi
+
+singleton Mdi 1.0 Mdi.qml
