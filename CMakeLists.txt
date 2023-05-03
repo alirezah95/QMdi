@@ -3,9 +3,11 @@ cmake_minimum_required(VERSION 3.22)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
+find_package(QT NAMES Qt6 Qt5)
+
 set(PROJECT_NAME "QMdi")
-set(PROJECT_VERSION_MAJOR 0)
-set(PROJECT_VERSION_MINOR 6)
+set(PROJECT_VERSION_MAJOR 1)
+set(PROJECT_VERSION_MINOR 0)
 set(PROJECT_VERSION_PATCH 0)
 set(PROJECT_VERSION_TWEAK 0)
 if (PROJECT_VERSION_TWEAK EQUAL 0)
@@ -18,7 +20,7 @@ set(PROJECT_LICENSE_TYPE "MIT")
 set(PROJECT_CREATOR "Alireza")
 set(PROJECT_LANGUAGES "C++ QML")
 set(PROJECT_DESCRIPTION "A module providing the ability to easily use Material Design Icons Font in Qml elements")
-set(PROJECT_HOMEPAGE_URL "https://github.com/alirezah95/Qml-Material-Design-Icons-Font")
+set(PROJECT_HOMEPAGE_URL "https://github.com/alirezah95/QMdi")
 
 project(${PROJECT_NAME}
     VERSION ${PROJECT_VERSION}
@@ -27,7 +29,7 @@ project(${PROJECT_NAME}
     LANGUAGES CXX
 )
 
-if (QT_VERSION_MAJOR EQUAL 6)
+if(QT_VERSION_MAJOR EQUAL 6)
     set_source_files_properties(ui/qml/Mdi.qml PROPERTIES
         QT_QML_SINGLETON_TYPE TRUE
     )
