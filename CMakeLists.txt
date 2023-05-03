@@ -37,7 +37,6 @@ if(QT_VERSION_MAJOR EQUAL 6)
     qt_add_qml_module(${PROJECT_NAME}
         URI ${PROJECT_NAME}
         VERSION 1.0
-        SHARED
         RESOURCES
             ui/resources/materialdesignicons-webfont.ttf
             ui/qml/qmldir
