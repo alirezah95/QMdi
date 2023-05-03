@@ -34,7 +34,7 @@ QtObject {
     }
 
     readonly property FontLoader mdiFont: FontLoader {
-        source: "./materialdesignicons-webfont.ttf"
+        source: "../resources/materialdesignicons-webfont.ttf"
     }
 
     readonly property string abTesting: "&#xF01C9"
