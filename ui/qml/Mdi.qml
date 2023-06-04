@@ -37,6 +37,18 @@ QtObject {
         source: "../resources/materialdesignicons-webfont.ttf"
     }
 
+    // Manually added icon to font
+    readonly property string diagram: "&#xEFFF0"
+    readonly property string doctorPersonFilled: "&#xEFFF1"
+    readonly property string doctorPersonOutlined: "&#xEFFF2"
+    readonly property string flowchartFilled: "&#xEFFF3"
+    readonly property string flowchartOutlined: "&#xEFFF4"
+    readonly property string flowchartVariantFilled: "&#xEFFF5"
+    readonly property string flowchartVariantOutlined: "&#xEFFF6"
+    readonly property string telegramCircleFilled: "&#xEFFF7"
+    readonly property string telegramCircleOutlined: "&#xEFFF8"
+    readonly property string telegramLogo: "&#xEFFF9"
+
     readonly property string abTesting: "&#xF01C9"
     readonly property string abacus: "&#xF16E0"
     readonly property string abjadArabic: "&#xF1328"
